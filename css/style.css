@@ -439,6 +439,9 @@ header .icon #menu-bars {
   .my-works h2 {
     padding-top: 5%;
   }
+  .col-mymy p {
+    font-size: 1.8rem;
+  }
 }
 
 /* desktop */
