@@ -1,0 +1,469 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Quicksand:wght@400;700&display=swap");
+
+:root {
+  --orange: #f5a22e;
+  --black: #262d2d;
+  --ligh-color: #f1f1f1;
+}
+
+* {
+  font-family: "poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 5.5rem;
+  scroll-behavior: smooth;
+}
+header {
+  position: absolute;
+  top: 1%;
+  left: 0;
+  right: 0;
+  background: none;
+  padding: 1rem 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  margin: auto;
+}
+header .image {
+  padding-top: 3rem;
+}
+header .image img {
+  width: 80%;
+}
+header .navbar a {
+  position: relative;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+  color: #191600;
+  font-family: "montserrat";
+  font-weight: 500;
+  text-decoration: none;
+}
+
+header .navbar a:after {
+  content: "";
+  position: absolute;
+  background-color: #191600;
+  height: 3px;
+  width: 0;
+  left: 25px;
+  bottom: 1px;
+  transition: 0.3s;
+}
+
+header .navbar a:hover {
+  font-weight: 600;
+  color: black;
+}
+header .navbar a:hover:after {
+  width: 65%;
+}
+
+header .icon i {
+  cursor: pointer;
+  margin-left: 0.5rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  width: 4.5rem;
+  text-align: center;
+  font-size: 1.7rem;
+  color: #191600;
+  border-radius: 50%;
+  background: #eee;
+}
+
+header .icon i:hover {
+  color: #eee;
+  background: #191600;
+  transform: rotate(360deg);
+  transition: 0.3s;
+}
+
+header .icon #menu-bars {
+  display: none;
+}
+
+/* home page start*/
+
+#Penglihatan {
+  background-image: url(asset/Group\ 1335.png);
+  background-size: cover;
+  min-height: 90rem;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
+
+.cover h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.cover h5 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+.container {
+  padding-top: 15%;
+}
+.bagian-penglihatan {
+  padding: 0 28%;
+  font-weight: 300;
+}
+#Penjelasan-Penglihatan {
+  padding: 10% 30%;
+  background-color: #bc9774;
+}
+
+.image img {
+  width: 50rem;
+}
+
+.btn1 {
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #332d00;
+  background: var(--orange);
+  border-radius: 1rem;
+  padding: 1.5rem 3rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn1:hover {
+  background-color: #ffff;
+  color: #332d00;
+  border: #f5a22e;
+  border-style: solid;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* about */
+.col-about {
+  padding-top: 10%;
+}
+.row-about {
+  background: var(--ligh-color);
+}
+
+.col-about-this-project {
+  font-size: 18px;
+}
+.col-project {
+  font-size: 18px;
+}
+.col-key-task {
+  font-size: 18px;
+}
+.col-task {
+  font-size: 18px;
+}
+
+.col-logo-gede img {
+  width: 35%;
+}
+
+/* my works */
+/* .my-works {
+  padding-top: 10%;
+} */
+.row-myworks {
+  background: var(--ligh-color);
+}
+
+.col-image-my-works img {
+  width: 95%;
+  transition: 0.3s;
+}
+.col-image-my-works img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.col-image2-my-works img {
+  width: 95%;
+  transition: 0.3s;
+}
+.col-image2-my-works img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.col-image3-my-works img {
+  width: 32%;
+  transition: 0.3s;
+}
+.col-image3-my-works img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.col-BABI p {
+  color: #332d00;
+  font-size: 13px;
+  color: #919191;
+  padding-left: 46%;
+}
+.col-BABI h4 a {
+  text-decoration: none;
+  color: #332d00;
+  font-size: 24px;
+}
+.col-BABII h4 a {
+  text-decoration: none;
+  color: #332d00;
+  font-size: 24px;
+}
+.col-BABIII h4 a {
+  text-decoration: none;
+  color: #332d00;
+  font-size: 24px;
+}
+
+.col-BABI p a:hover {
+  font-weight: 500;
+}
+
+.col-border {
+  padding-top: 10%;
+}
+
+/* footer */
+
+.row-line {
+  background: var(--ligh-color);
+}
+
+.row-footer {
+  background: var(--ligh-color);
+}
+.row-footer1 {
+  background: var(--ligh-color);
+  padding-bottom: 5%;
+}
+.col-footer {
+  padding: 10% 0%;
+}
+
+.col-btn-footer {
+  padding-top: 2%;
+}
+.col-btn-footer a {
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #332d00;
+  background: var(--orange);
+  border-radius: 1rem;
+  transition: 0.3s;
+  padding: 1.5rem 3rem;
+  text-decoration: none;
+}
+
+.col-btn-footer a:hover {
+  background-color: #ffff;
+  color: #332d00;
+  border: #f5a22e;
+  border-style: solid;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.col-bryan p {
+  color: #919191;
+}
+.col-bryan hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-color: black;
+  margin-right: 40%;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.footer {
+  padding-top: 3%;
+  background: var(--orange);
+}
+
+/* .col-footer-end p {
+  background: var(--orange);
+}
+.col-footer-end hr {
+  background: var(--orange);
+}
+
+.col-footer3 {
+  background: var(--orange);
+} */
+
+.privacy {
+  padding-bottom: 5%;
+}
+
+/* * media queries */
+@media (max-width: 1078px) {
+  */ html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 884px) {
+  html {
+    font-size: 50%;
+  }
+
+  header .icon #menu-bars {
+    display: inline-block;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.5);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  header .navbar a {
+    display: block;
+    padding: 1.5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    background: #eee;
+    border-radius: 12px;
+  }
+  header .image {
+    padding-top: 3rem;
+  }
+  header .image img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 767px) {
+  #Penglihatan .container .image img {
+    display: none;
+  }
+  #Penglihatan .container h1 {
+    font-size: 4rem;
+  }
+  #Penglihatan .container h5 {
+    font-size: 1.8rem;
+  }
+
+  #Penglihatan {
+    padding-top: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-height: 100rem;
+  }
+
+  header .image img {
+    width: 60%;
+  }
+  .row-about {
+    padding: 0% 5%;
+  }
+  .col-this-project {
+    padding-top: 5%;
+  }
+
+  .col-this-project p {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  .col-project {
+    font-size: 1.8rem;
+  }
+
+  .col-key-task {
+    padding-top: 5%;
+  }
+  .col-key-task p {
+    font-weight: 600;
+    font-size: 1.8rem;
+  }
+
+  .col-task {
+    font-size: 1.6rem;
+  }
+  .col-image2-my-works {
+    text-align: center;
+    padding-top: 3%;
+  }
+  .col-image-my-works {
+    text-align: center;
+  }
+  .col-image3-my-works img {
+    width: 95%;
+    text-align: center;
+  }
+  .row-line img {
+    height: 70%;
+    padding-top: 5%;
+  }
+  .col-bryan {
+    padding: 5% 5%;
+  }
+  .col-contact {
+    padding: 5% 5%;
+  }
+  .col-service {
+    padding: 5% 5%;
+  }
+  .col-footer3 img {
+    width: 15%;
+  }
+  .my-works h2 {
+    padding-top: 5%;
+  }
+}
+
+/* desktop */
+@media (min-width: 1024px) {
+  .col-image-my-works {
+    padding-left: 15%;
+  }
+  .col-image2-my-works {
+    padding-right: 15%;
+  }
+  .row-footer1 .col-bryan {
+    padding-left: 10%;
+  }
+  .col-footer-end hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-color: black;
+    margin-right: 10%;
+    margin-left: 10%;
+
+    border: 2px solid #000000;
+  }
+
+  .my-works h2 {
+    padding-top: 5%;
+  }
+}
